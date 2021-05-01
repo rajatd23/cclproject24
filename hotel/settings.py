@@ -23,10 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'f7%+v=bcaps)vh$_)y4+a_^3)s**t$lnszg((_$ym+p^jd#r)dv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 # from .base import *
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','cclproject24.herokuapp.com']
 
 
 # Application definition
